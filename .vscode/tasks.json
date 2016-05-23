@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "command": "egret",
+  "showOutput": "always",
+  "isShellCommand": true,
+//   "args": ["./js/game.ts"],
+  "problemMatcher": "$tsc",
+  "tasks":[
+    {
+      "taskName": "build",
+      "args": [
+        "-sourceMap"
+      ],
+      "isBuildCommand": true
+    },
+    {
+       "taskName": "run",
+       "args": [],
+       "isTestCommand": true
+    }
+  ]
+}
